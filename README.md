@@ -4,7 +4,16 @@
 Dengue has been a recurring epidemic in the Philippines since 1954. It is transmitted by Aedes aegypti and Aedes albopictus mosquitoes, primarily during the rainy season from June to February. In 2025, the Philippines is experiencing a significant dengue outbreak, with cases rising sharply across the country, including in Quezon City. The local government has declared a dengue outbreak and implemented protective measures to curb the transmission rate. Previous efforts have attempted to forecast dengue outbreaks to support public health preparedness. This study aims to develop predictive models for weekly dengue cases, specifically XGBoost and Prophet in Python, to forecast cases in Quezon City, Philippines, using parameters such as previous dengue cases, relative humidity, temperature (maximum and minimum), rainfall amount, wind speed, and wind direction.  The predictions of the two models were evaluated against the actual number of dengue cases using three error metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Absolute Percentage Error (MAPE).
 
 # Data Collection
-Weekly data on dengue cases from 2015 to 2024 were obtained from the Quezon City Epidemiology and Surveillance Division (QCESD).   Climate variable data—including rainfall amount, maximum and minimum temperature, relative humidity, wind speed, and wind direction—were requested from the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) at their synoptic station located at the Science Garden, Quezon City. The dataset from PAGASA is in a daily format and covers the period from 2015 to 2023. 
+Weekly data on dengue cases from 2015 to 2024 were obtained from the Quezon City Epidemiology and Surveillance Division (QCESD).   Climate variable data—including rainfall amount, maximum and minimum temperature, relative humidity, wind speed, and wind direction—were requested from the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) at their synoptic station located at the Science Garden, Quezon City. The dataset from PAGASA is in a daily format and covers the period from 2015 to 2023. The climate variables and their respective units of measurement are shown below.
+| Climate Variable    | Unit of Measurement                   |
+|---------------------|---------------------------------------|
+| Rainfall Amount     | mm                                    |
+| Maximum Temperature | °C                                    |
+| Minimum Temperature | °C                                    |
+| Relative Humidity   | %                                     |
+| Wind Speed          | m/s                                   |
+| Wind Direction      | Degrees (°) relative to true north    |
+
 
 # Model Setups
 Three setups were created for both the XGBoost and Prophet models to evaluate their accuracy and performance. The details of the three setups are shown below.
