@@ -7,8 +7,7 @@ Dengue has been a recurring epidemic in the Philippines since 1954. It is transm
 Weekly data on dengue cases from 2015 to 2024 were obtained from the Quezon City Epidemiology and Surveillance Division (QCESD).   Climate variable data—including rainfall amount, maximum and minimum temperature, relative humidity, wind speed, and wind direction—were requested from the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) at their synoptic station located at the Science Garden, Quezon City. The dataset from PAGASA is in a daily format and covers the period from 2015 to 2023. 
 
 # Model Setups
-Three setups were created for both the XGBoost and Prophet models to evaluate their accuracy and performance. Setup 1 is used to predict the weekly dengue cases in 2024 without access to actual 2024 weather data. Setup 2 is used to predict weekly dengue cases in 2023 with access to actual 2023 weather data. Setup 3 is used to predict weekly dengue cases in 2023 without access to actual weather data in 2023.
-
+Three setups were created for both the XGBoost and Prophet models to evaluate their accuracy and performance. The details of the three setups are shown below.
 | Setup 1 | Setup 2 | Setup 3 |
 |----------|----------|----------|
 | Predicting 2024 Weekly Cases    | Predicting 2023 Weekly Cases    | Predicting 2023 Weekly Cases    |
@@ -16,3 +15,5 @@ Three setups were created for both the XGBoost and Prophet models to evaluate th
 | No access to 2024 weather data    | With access to actual 2023 weather data    | No access to 2023 weather data    |
 | Evaluated using actual 2024 cases    | Evaluated using actual 2023 cases    | Evaluated using actual 2023 cases    |
 
+# Instructions
+Hey
