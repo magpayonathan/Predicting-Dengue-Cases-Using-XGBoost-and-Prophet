@@ -16,8 +16,8 @@ Three setups were created for both the XGBoost and Prophet models to evaluate th
 | Evaluated using actual 2024 cases    | Evaluated using actual 2023 cases    | Evaluated using actual 2023 cases    |
 
 # Instructions
-The XGBoost and Prophet models for Setup 1 are in [`SETUP 1.py`](SETUP%201.py) to simulate forecasting for Setup 1. Its corresponding files are [`dengue2024.csv`](dengue2024.csv), which contains past dengue cases and weather data from 2015 to 2023. The results of each model are then evaluated using the 2024_cases.csv, which contains the actual cases of 2024. 
+The XGBoost and Prophet models for Setup 1 are in [`SETUP 1.py`](SETUP%201.py) to simulate forecasting for Setup 1. Its corresponding files are [`dengue2024.csv`](dengue2024.csv), which contains past dengue cases and weather data from 2015 to 2023. The results of each model are then evaluated using the [`2024_cases.csv`](2024_cases.csv), which contains the actual cases of 2024. 
 
-Likewise, for Setup 2, the forecasting models can be accessed through Setup2.py. Its corresponding files are weather2023.csv, which contains the actual weather data of 2023. Additionally, it also has dengue2023.csv, which contains the historical data and weather data from 2015 to 2022. The results are then evaluated using 2023_cases.csv to test the accuracy of the model.
+Likewise, for Setup 2, the forecasting models can be accessed through [`SETUP 2.py`](SETUP%202.py). Its corresponding files are [`weather2023.csv`](weather2023.csv), which contains the actual weather data of 2023. Additionally, it also has [`dengue2023.csv`](dengue2023.csv), which contains the historical data and weather data from 2015 to 2022. The results are then evaluated using [`2023_cases.csv`](2023_cases.csv) to test the accuracy of the model.
 
-The Setup 3 models can be accessed through Setup3.py. It also uses dengue2023.csv and 2023_cases.csv.
+The Setup 3 models can be accessed through [`SETUP 3.py`](SETUP%203.py). It also uses [`dengue2023.csv`](dengue2023.csv) and [`2023_cases.csv`](2023_cases.csv).
