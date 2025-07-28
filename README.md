@@ -11,7 +11,7 @@ Three setups were created for both the XGBoost and Prophet models to evaluate th
 | Setup 1 | Setup 2 | Setup 3 |
 |----------|----------|----------|
 | Predicting 2024 Weekly Cases    | Predicting 2023 Weekly Cases    | Predicting 2023 Weekly Cases    |
-| Trsining set: 2015-2023    | Training set: 2015-2022    | Training set: 2015-2022    |
+| Training set: 2015-2023    | Training set: 2015-2022    | Training set: 2015-2022    |
 | No access to 2024 weather data    | With access to actual 2023 weather data    | No access to 2023 weather data    |
 | Evaluated using actual 2024 cases    | Evaluated using actual 2023 cases    | Evaluated using actual 2023 cases    |
 
