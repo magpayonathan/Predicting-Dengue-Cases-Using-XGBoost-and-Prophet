@@ -30,3 +30,5 @@ The XGBoost and Prophet models for Setup 1 are in [`SETUP 1.py`](SETUP%201.py) t
 Likewise, for Setup 2, the forecasting models can be accessed through [`SETUP 2.py`](SETUP%202.py). Its corresponding files are [`weather2023.csv`](weather2023.csv), which contains the actual weather data of 2023. Additionally, it also has [`dengue2023.csv`](dengue2023.csv), which contains the historical data and weather data from 2015 to 2022. The results are then evaluated using [`2023_cases.csv`](2023_cases.csv) to test the accuracy of the model.
 
 The Setup 3 models can be accessed through [`SETUP 3.py`](SETUP%203.py). It also uses [`dengue2023.csv`](dengue2023.csv) and [`2023_cases.csv`](2023_cases.csv).
+
+Corresponding plots are also located in each Python file. 
