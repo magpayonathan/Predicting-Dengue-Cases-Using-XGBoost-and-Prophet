@@ -9,7 +9,7 @@ Weekly data on dengue cases from 2015 to 2024 were obtained from the Quezon City
 # Model Setups
 Three setups were created for both the XGBoost and Prophet models to evaluate their accuracy and performance. Setup 1 is used to predict the weekly dengue cases in 2024 without access to actual 2024 weather data. Setup 2 is used to predict weekly dengue cases in 2023 with access to actual 2023 weather data. Setup 3 is used to predict weekly dengue cases in 2023 without access to actual weather data in 2023.
 
-| Column 1 | Column 2 | Column 3 |
+| Setup 1 | Setup 2 | Setup 3 |
 |----------|----------|----------|
 | R1 C1    | R1 C2    | R1 C3    |
 | R2 C1    | R2 C2    | R2 C3    |
